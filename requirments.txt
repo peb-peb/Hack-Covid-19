@@ -1,0 +1,7 @@
+
+Django
+tensorflow
+imutils
+requests
+opencv-python
+beautifulsoup4

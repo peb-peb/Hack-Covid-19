@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hack Covid-19</title>
+
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	 <link rel="icon" href="https://www.crushpixel.com/big-static17/preview4/stop-covid19-coronavirus-vector-illustration-2547829.jpg" />
+
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+
+
+
+	<!-- ************************************************************************* -->
+	<!-- **************************** All-CSS-Code************************ -->
+
+	<style>
+
+       
+
+		/* **********nav-bar********** */
+
+		#top {
+
+			background: #0A1931;
+
+			/* height: 650px; */
+
+		}
+
+		.navi {
+			margin-top: 3%;
+		}
+
+		.brand_name {
+			font-weight: 700;
+			font-size: 2.5rem;
+			font-family: 'Ubuntu', sans-serif;
+		}
+
+
+		.nav-link {
+			font-size: 20px;
+			font-family: 'Ubuntu', sans-serif;
+
+		}
+
+		/* *************banner-corosel******************* */
+
+		.banner {
+			width: 80%;
+			margin: 2% 8%;
+		}
+
+
+
+		.banner-lines {
+			text-align: center;
+			margin-top: 4%;
+			margin-left: 5%;
+			margin-right: 5%;
+			color: gainsboro;
+			font-family: 'Ubuntu', sans-serif;
+			font-weight: 600;
+
+			font-size: 1.5rem;
+
+			/* text mobile me lengthy ho jaarha to check */
+
+		}
+
+
+		.Previous-button {
+			margin-left: -3%;
+
+			/* **********In this code I adjusted previous button of the banner*********** */
+
+		}
+
+		/* **************************Dash-board************************************/
+
+		.dash-board-title {
+			background: grey;
+		}
+
+		.heading-h2 {
+
+			font-family: 'Ubuntu', sans-serif;
+			font-weight: 800;
+			font-size: 200%;
+
+			text-align: center;
+
+			padding-top: 2%;
+			padding-bottom: 2%;
+
+		}
+
+		
+
+		/* **************************live cases card*********************** */
+
+        .live-card{
+            width: 30%;
+			background: #053742;
+			border-radius: 5%;
+			
+		}
+
+
+		.live-text , .India , .p-live-data {
+			font-family: 'Ubuntu', sans-serif;
+			color: black;
+			text-align: center;
+		}
+
+		.p-live-data{
+			color: rgb(4, 53, 53);
+		}
+
+		/* **************************** font size media query for some title and fonts*******************  */
+
+		@media (max-width: 995px){
+            .brand_name{
+                font-size: calc(0.7vw + 1.5rem);
+ 
+            }
+
+			.banner-lines {
+				font-size: calc(0.4vw + 1.2rem);
+			}
+
+			.heading-h2{
+				font-size: calc(0.7vw + 1.5rem);
+ 
+			}
+
+			.live-text {
+				font-size: calc(0.4vw + 1.2rem);
+			}
+
+            
+        }
+
+		/* ************card 2 button**************** */
+
+		.button-card{
+			color: antiquewhite;
+			text-decoration: none;
+		}
+
+
+		.btn{
+               margin-left: 18%;
+			   margin-right: 15% ;
+			   margin-top: 6%;
+
+			   text-decoration: none;
+		}
+
+
+		.card{
+
+             margin-top: 5%;
+			 margin-bottom: 5%;
+
+        }
+
+		.card:hover, .carder-body:hover {
+
+            background-color: #7aa6d6;
+
+        }
+
+		#dash-board{
+			background: rgb(255, 233, 39);
+		}
+
+		.card-title{
+			background: orange;
+		}
+		.carder-body{
+			color: rgb(4, 54, 54);
+			background:#d4dde8;
+
+		}
+
+		/* ***********.card-space-bg***************** */
+
+		#dash-board{
+
+			background-image: url("https://www.who.int/images/default-source/searo---images/health-topics/corona-virus19/coronavirus-blue.tmb-1200v.jpg?Culture=en&sfvrsn=1bdbbe71_6");
+			background-size: cover;
+
+
+		}
+
+		/* *************************card 3 news ******************************** */
+
+		.news-list-link{
+			text-decoration: none;
+			color: rgb(4, 54, 54);
+		}
+
+		/* **************************** mask detector********************************** */
+
+		.Mask-Detector{
+			text-align: center;
+		}
+
+		#mask-detect{
+			/* background-image: url("https://static.vecteezy.com/system/resources/previews/001/102/794/original/medical-mask-over-glowing-coronavirus-element-background-vector.jpg"); */
+
+			background-image: url("https://www1.racgp.org.au/getattachment/acdc41e6-c467-4c2d-9794-3c276e808311/attachment.aspx");
+			background-size: cover;
+
+		}
+
+		.mask-cam{
+			border-radius: 5%;
+			border: solid 5px;
+			margin-bottom: 5%;
+			margin-top: 5%;
+		}
+
+		/* *************************************copyrigth footer **************************** */
+
+		.copyrigth{
+			background: grey;
+			margin:0%;
+		}
+		.foot-para{
+			margin-bottom: 0%;
+			text-align: center;
+		}
+		.name-link{
+			text-decoration: solid;
+			color: rgb(194, 214, 14);
+		}
+
+		/* *****************************for smooth scroll  on page ***********************************  */
+
+		html{
+			scroll-behavior: smooth;
+		}
+
+
+
+	</style>
+
+	<!-- ********************************************************************************************** -->
+	<!-- ********************************************************************************************** -->
+
+</head>
+
+<body>
+
+	<section id="top">
+
+
+		<nav class="navbar navbar-expand-lg navbar-dark ">
+
+			<div class="container navi">
+
+				<a class="navbar-brand brand_name" href="#">Hack Covid-19</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+					aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#dash-board">Dashboard</a>
+						</li>
+						
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Covid Resources
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							  <a class="dropdown-item" href="{% url 'resources' %}" target="_blank">Hospitals, Oxygen & ICU </a>
+							  <a class="dropdown-item" href="{% url 'vaccine' %}"  target="_blank">Covid Vaccine</a>
+							  
+						  </li>
+						<li class="nav-item">
+							<a class="nav-link" href="#mask-detect">Mask-Detector</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+		</nav>
+
+
+
+
+
+		<!-- ******************************banner-Corousel**************************************** -->
+
+
+		<div class="container">
+
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="6000">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<h5 class="banner-lines">Get Information & Check Availability Of All the improtant resources to
+							fight Against Covid-19! </h5>
+
+						<img class="banner" src="https://files.cdha.ca/images/newsEvents/covid_vaccination-lp-banner.png" alt="banner-1">
+					</div>
+					<div class="carousel-item">
+						<h5 class="banner-lines"> In this battle we have to stay strong & together! Just support your
+							loveones who so ever is suffering from this Corona-Virus! </h5>
+						<img class="banner" src="https://www.farmingdalelibrary.org/wp-content/uploads/2021/04/covid19-banner.jpg" alt="banner-2">
+					</div>
+					<div class="carousel-item">
+						<h5 class="banner-lines"> We provide you with detailed Dashboard in which we have discussed
+							improtance & proper way of home Quarantine, Live Cases in India, Preventions & many more.
+						</h5>
+						<img class="banner" src="https://www.linnsheriff.org/wp-content/uploads/COVID-19-Graphic-web-banner.jpg" alt="banner-2">
+					</div>
+
+				</div>
+				<a class="carousel-control-prev Previous-button" href="#carouselExampleControls" role="button"
+					data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
+		</div>
+
+		<!-- ****************************************************************************** -->
+
+
+
+		</div>
+
+	</section>
+
+	
+
+	<!-- ******************************** scroll-top-button*********************** -->
+
+
+	<section id="dash-board">
+		<div class="dash-board-title">
+			<h2 class="heading-h2">All in one Dash-Board!</h2>
+		</div>
+
+
+	
+
+
+<div class="container card-bg">
+
+	<!-- ********************************live-cases(Card 1)****************************** -->
+<div class="row">
+
+	<div class="card-coloum col-lg-4 col-md-6">
+
+		<div class="card">
+
+			<div class="card-header card-title">
+				<h3 class="live-text"> <big>Live Corona Cases:</big> </h3>
+			</div>
+
+			<div class="card-body carder-body">
+
+
+				
+				    
+				    {% for data in posts %}
+					<!-- <h1>{{ data.date }}</h1> -->
+					<h3 class="India"> <big>{{ data.countries }} </big> </h3>
+					<p class="p-live-data"> <strong>Total No. of Cases:</strong> {{ data.total_cases }}</p>
+					<p class="p-live-data" > <strong>New Cases:</strong> {{ data.new_cases }}</p>
+					<p class="p-live-data"> <strong>Total No. of Deaths:</strong> {{ data.total_deaths }}</p>
+					<p class="p-live-data"> <strong>New Deaths:</strong> {{ data.new_deaths }}</p>
+					<p class="p-live-data"> <strong>Total Recovery:</strong> {{ data.total_recovered }}</p>
+					<p class="p-live-data"> <strong>New Recovery:</strong> {{ data.new_recovered }}</p>
+					<p class="p-live-data"> <strong>Total No. of Active Cases:</strong> {{ data.active_cases }}</p>
+					<p class="p-live-data"> <strong>Total No. of tests:</strong> {{ data.total_tests }}</p>
+					{% endfor %}
+
+			</div>
+
+
+		</div>
+
+	</div>
+
+
+	<!-- ************************************Card-2************************************************* -->
+	<div class="card-coloum col-lg-4 col-md-6">
+
+		<div class="card">
+
+			<div class="card-header card-title">
+				<h3 class="live-text"> <big>Covid Guidelines:</big> </h3>
+			</div>
+
+			<div class="card-body carder-body">
+
+					<h4 class="live-text"><big>Guidelines for Effective Control of COVID-19.</big> </h4>
+					<p class="live-text"><strong> This card contain all Guidelines by Our government like: </strong></p>
+
+					<ul>
+						<li><strong>Treatments in Covid.</strong></li>
+						<li><strong>Containment Zones.</strong></li>
+						<li> <strong> Vaccination. </strong></li>
+						<li><strong>Tracker.</strong></li>
+						<li><strong>Covid-19 Tests.</strong></li>
+					</ul>
+
+			<button class="btn btn-primary"><a class="button-card" href="https://static.mygov.in/rest/s3fs-public/mygov_161725058451307401.pdf" target="_blank"> <strong> Click to know more</strong></a></button>
+					
+
+			</div>
+
+
+		</div>
+
+	</div>
+
+
+		<!-- **************************************Card-3******************************************************** -->
+
+		<div class="card-coloum col-lg-4 col-md-6">
+
+			<div class="card">
+	
+				<div class="card-header card-title">
+					<h3 class="live-text"> <big>Covid-19 News:</big> </h3>
+				</div>
+	
+				<div class="card-body carder-body">
+	
+						<h4 class="live-text"><big>All recently updated & real news.</big> </h4>
+	
+						<ul>
+							{% for key, value in titles_urls.items %}
+								<li> <strong> <a class="news-list-link" href={{ value }} >{{ key }}</a></strong></li>
+							{% endfor %}
+				
+						</ul> <br> 
+	
+				</div>
+	
+	
+			</div>
+	
+		</div>
+</div>
+
+
+</div>	
+
+</section>
+
+<!-- ****************************************** Mask-Detector ********************************************* -->
+
+
+<section id="mask-detect">
+
+	<div class="dash-board-title">
+		<h2 class="heading-h2">Live Mask-Detector</h2>
+	</div>
+
+
+
+	<div class="container Mask-Detector">
+		
+    <img class="mask-cam" src="{% url 'mask_feed' %}" width="70%">
+
+	</div>
+
+</section>
+
+<!-- *****************************<footer> copyrigth************************** -->
+
+	<div class="copyrigth">
+		<p class="foot-para"><strong> © 2021 Mind Hack Zombies( Hack Covid). </strong></p>
+		<p class="foot-para"><strong> All Rigth Reserved. </strong></p>
+		<p class="foot-para"><strong> Build by <a class="name-link" href="https://www.linkedin.com/in/vansh-raj-60877b1bb/" target="_blank">Vansh</a> & <a href=""  class="name-link" target="_blank">Harsh</a> </strong></p>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>
